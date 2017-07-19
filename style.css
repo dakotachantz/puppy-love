@@ -63,11 +63,15 @@ colors:
         
         #page_content section {
             border-bottom: 4px solid #dddddd;
-            padding-bottom: 30px;
+            padding-bottom: 40px;
         }
         
         #page_content li {
             font-weight: bold;
+        }
+        
+        #page_content ul {
+            padding-left: 20px;
         }
         
         table {
