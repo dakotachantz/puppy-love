@@ -20,34 +20,40 @@ colors:
         
         body {
             background-image: url(img/bg.jpg);
+            margin-left: 100px;
+            margin-right: 100px;
+            border: solid 2px #ffd24a;
+            border-radius: 4px;
         }
         
-        #site_header {
+        header {
             background-color: #ff8523;
             height: 150px;
-            padding-top: 20px;
             padding-left: 20px;
-            margin: 10px 100px;
-            border-color: #ffd24a;
+            padding-top: 20px;
         }
         
-        #logo {
-            padding-bottom: 2px;
+        section {
+            padding-bottom: 30px;
         }
         
-        .name {
-            background-color: #ff8523;
+        div {
+            background-color: white;
         }
         
         .main_navigation a {
-            color: #eee;
+            color: white;
             text-decoration: none;
             font-weight: bold;
             border-style: solid;
             border-color: #eee;
-            padding: 10px 15px;
+            padding: 10px 30px 10px 30px;
             border-width: 1px;
             border-radius: 5px;
+        }
+        
+        p a {
+            color: #1fabe5;
         }
         
         h2, h3 {
@@ -56,9 +62,22 @@ colors:
         
         #page_content {
             background-color: white;
-            margin: 0px 100px;
+            padding: 20px;
+        }
+        
+        #page_content section {
+            border-bottom: 4px solid #dddddd;
         }
         
         #page_content li {
             font-weight: bold;
+        }
+        
+        table {
+            border: 1px solid #046c97;
+        }
+        
+        thead {
+            background-color: #1fabe5;
+            border: 1px solid #1fabe5;
         }
